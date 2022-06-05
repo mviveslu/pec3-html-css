@@ -493,7 +493,7 @@ footer .social-media .separator-contents .list-images li a::before {
   position: absolute;
 }
 .list-images > li.facebook a::before {
-  background-image: url("../img/icons/facebook.svg");
+  background-image: url("img/icons/facebook.svg");
 }
 .list-images > li.facebook a:hover {
   

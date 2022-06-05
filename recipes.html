@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Recipes Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body id="receipes">
+    <header class="header-principal">
+        <div class="container">
+            <a href="index.html">
+                <img src="img/logos/logo.png" class="header-logo" alt="Logo cooking">
+            </a>
+            <nav>
+                <ul>
+                    <li class="selected"><a href="recipes.html">Recipes</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="introduction-section">
+        <header class="section-header">
+            <h1>
+                Browse recipes
+            </h1>
+            <p>
+                All these healthy recipes are gluten-free and prioritize fresh, seasonal and wholesome ingredients.
+                Enjoy!
+            </p>
+        </header>
+    </section>
+    <section class="main-content-container">
+        <section class="filters">
+            <div class="filter-option1">
+                <h3>
+                    categories
+                </h3>
+                <ul class ="filter-option1-list">
+                    <li>
+                        <input type="checkbox" value="Side" id="side">
+                        <label for="side"> Side</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Starter" id="Starter">
+                        <label for="Starter"> Starter</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Dessert" id="Dessert">
+                        <label for="Dessert"> Dessert</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Meat" id="Meat">
+                        <label for="Meat"> Meat</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Seafood" id="Seafood">
+                        <label for="Seafood"> Seafood</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Pasta" id="Pasta">
+                        <label for="Pasta"> Pasta</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Vegan" id="Vegan">
+                        <label for="Vegan"> Vegan</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Vegetarian" id="Vegetarian">
+                        <label for="Vegetarian"> Vegetarian</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="filter-option2">
+                <h3>
+                    ingredients
+                </h3>
+                <ul class ="filter-option1-list">
+                    <li>
+                        <input type="checkbox" value="Chicken" id="Chicken">
+                        <label for="Chicken">Chicken</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Chocolate" id="Chocolate">
+                        <label for="Chocolate">Chocolate</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Eggs" id="Eggs">
+                        <label for="Eggs">Eggs</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Beef" id="Beef">
+                        <label for="Beef"> Beef</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Pork" id="Pork">
+                        <label for="Pork"> Pork</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Salmon" id="Salmon">
+                        <label for="Salmon"> Salmon</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Lamb" id="Lamb">
+                        <label for="Lamb">Lamb</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="Turkey" id="Turkey">
+                        <label for="Turkey"> Turkey</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-filter">
+                <h3>
+                    Search
+                </h3>
+                <div class="input-container">
+                    <input type="search" name="search" id="search" placeholder="Enter keyword">
+                    <svg class="input-icon-search" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16.4288 13.9992L16.1834 14.3437L16.4825 14.6428L22.2071 20.3674C22.5976 20.7579 22.5976 21.3911 22.2071 21.7816C21.8166 22.172 21.1834 22.172 20.7929 21.7816L15.0683 16.057L14.7692 15.7579L14.4247 16.0032C13.0354 16.9927 11.3364 17.5745 9.5 17.5745C4.80558 17.5745 1 13.7689 1 9.07446C1 4.38004 4.80558 0.574463 9.5 0.574463C14.1944 0.574463 18 4.38004 18 9.07446C18 10.9108 17.4182 12.6099 16.4288 13.9992ZM9.5 2.57446C5.91015 2.57446 3 5.48461 3 9.07446C3 12.6643 5.91014 15.5745 9.5 15.5745C13.0898 15.5745 16 12.6643 16 9.07446C16 5.48461 13.0898 2.57446 9.5 2.57446Z"
+                            fill="#79BAAB" stroke="#79BAAB" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section class="articles-grid">
+            <div class="container-articles-grid-photos">
+                <article class="container-articles-grid-link">
+                    <a href="" title="Kung Po Prawns recipe">
+                        <img src="img/meals/beef-bahn.jpg" alt="Kung Po Prawns">
+                        <h3>
+                            Kung Po Prawns
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="Hot Chocolate Fudge recipe">
+                        <img src="img/meals/chocolate-fudge.jpg" alt="Hot Chocolate Fudge">
+                        <h3>
+                            Hot Chocolate Fudge
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="Chicken Karaage recipe">
+                        <img src="img/meals/chicken-karaage.jpg" alt="Chicken Karaage">
+                        <h3>
+                            Chicken Karaage
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="Moussaka recipe">
+                        <img src="img/meals/moussaka.jpg" alt="Moussaka">
+                        <h3>
+                            Moussaka
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="Christmas cake recipe">
+                        <img src="img/meals/christmas-cake.jpg" alt="Christmas cake">
+                        <h3>
+                            Christmas cake
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="French onion recipe">
+                        <img src="img/meals/french-onion.jpg" alt="French onion">
+                        <h3>
+                            French onion
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="Mediterranean Salad recipe">
+                        <img src="img/meals/mediterranean-pasta.jpg" alt="Mediterranean Salad">
+                        <h3>
+                            Mediterranean Salad
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="Lamb Potato Pie recipe">
+                        <img src="img/meals/lamb-potato-pie.jpg" alt="Lamb Potato Pie">
+                        <h3>
+                            Lamb Potato Pie
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="Pancakes recipe">
+                        <img src="img/meals/pancakes.jpg" alt="Pancakes">
+                        <h3>
+                            Pancakes
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="Ratatouille recipe">
+                        <img src="img/meals/ratatouille.jpg" alt="Ratatouille">
+                        <h3>
+                            Ratatouille
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="Chivito Uruguayo recipe">
+                        <img src="img/meals/chivito.jpg" alt="Chivito Uruguayo">
+                        <h3>
+                            Chivito Uruguayo
+                        </h3>
+                    </a>
+                </article>
+                <article class="container-articles-grid-link">
+                    <a href="" title="Croatian Lamb Peka recipe">
+                        <img src="img/meals/lamb-peka.jpg" alt="Croatian Lamb Pika">
+                        <h3>
+                            Croatian Lamb Peka
+                        </h3>
+                    </a>
+                </article>
+            </div>
+            <nav class="pagination-nav">
+                <ul>              
+                <li><a class="pagination-nav-link-selected" href="">1</a></li>
+                <li><a class="pagination-nav-link" href="">2</a></li>
+                <li><a class="pagination-nav-link" href="">3</a></li>
+                <li><a class="pagination-nav-link" href="">4</a></li>
+                <li><a class="pagination-nav-link" href="">5</a></li>
+                <li><a class="pagination-nav-link" href="">6</a></li>
+                <li><a class="pagination-nav-link" href="">7</a></li>
+                <li><a class="pagination-nav-link" href="">>></a></li>
+            </ul>
+            </nav>
+        </section>
+    </section>
+    <footer>
+        <div class="social-container">
+            <div class="text-container">
+                <h5>
+                    NEWSLETTER
+                </h5>
+                <p>
+                    Receive a weekly email with new recipes and recommendations for your cooking
+                </p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Your email address" name="email" id="email">
+                    <button type="submit">Suscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <div class="separator-contents">
+                <div class="social-media-links">
+                    <p class="bold-paragraph">
+                        Simple recipes that make you feel good
+                    </p>
+                    <div class="social-media-links-icons">
+                        <p>
+                            Follow us on
+                        </p>
+                        <ul class="list-images">
+                            <li class="twitter"><a href="#"></a></li>
+                            <li class="instagram"><a href=""></a></li>
+                            <li class="youtube"><a href=""></a></li>
+                            <li class="facebook"><a href=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="social-media-resources">
+                    <p class="student-data">2022 &copy; Marta Vives Luis</p>
+                    <ul class="web-links-interest">
+                        <li><a href="">Terms and conditions</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                        <li><a href="">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+</body>
+
+</html>

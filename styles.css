@@ -492,33 +492,23 @@ footer .social-media .separator-contents .list-images li a::before {
   background-position: 50% 50%;
   position: absolute;
 }
-.list-images > li.facebook a::before {
-  background-image: url("img/icons/facebook.svg");
-}
+
 .list-images > li.facebook a:hover {
-  
   filter: invert(32%) sepia(20%) saturate(1529%) hue-rotate(182deg) brightness(97%) contrast(93%);
 }
 
-.list-images > li.instagram a::before {
-  background-image: url("../img/icons/instagram.svg");
-}
 .list-images > li.instagram a:hover{
   filter: brightness(50%) invert(100%) sepia(25%) saturate(5836%) hue-rotate(311deg) brightness(107%) contrast(103%);
 }
-.list-images > li.twitter a::before {
-  background-image: url("../img/icons/twitter.svg");
-}
+
 .list-images > li.twitter a:hover{
   filter: invert(47%) sepia(87%) saturate(1833%) hue-rotate(163deg) brightness(97%) contrast(104%);
 }
-.list-images > li.youtube a::before {
-  background-image: url("../img/icons/youtube.svg");
-}
+
 .list-images > li.youtube a:hover {
-  background-image: url("../img/icons/youtube.svg");
   filter: invert(40%) sepia(99%) saturate(5548%) hue-rotate(349deg) brightness(98%) contrast(103%);
 }
+
 footer .social-media .separator-contents .web-links-interest {
   margin-top: 20px;
     display: flex;
